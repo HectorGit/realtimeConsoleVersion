@@ -1,0 +1,224 @@
+<NeuralNetwork>
+    <Inputs>
+        <InputsNumber>17</InputsNumber>
+        <Item Index="1">
+            <Name>input_1</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="2">
+            <Name>input_2</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="3">
+            <Name>input_3</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="4">
+            <Name>input_4</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="5">
+            <Name>input_5</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="6">
+            <Name>input_6</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="7">
+            <Name>input_7</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="8">
+            <Name>input_8</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="9">
+            <Name>input_9</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="10">
+            <Name>input_10</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="11">
+            <Name>input_11</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="12">
+            <Name>input_12</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="13">
+            <Name>input_13</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="14">
+            <Name>input_14</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="15">
+            <Name>input_15</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="16">
+            <Name>input_16</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="17">
+            <Name>input_17</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+    </Inputs>
+    <ScalingLayer>
+        <ScalingNeuronsNumber>17</ScalingNeuronsNumber>
+        <Statistics Index="1">
+            <Minimum>0.412408</Minimum>
+            <Maximum>0.463518</Maximum>
+            <Mean>0.457628</Mean>
+            <StandardDeviation>0.00348131</StandardDeviation>
+        </Statistics>
+        <Statistics Index="2">
+            <Minimum>0.874695</Minimum>
+            <Maximum>0.928106</Maximum>
+            <Mean>0.915978</Mean>
+            <StandardDeviation>0.00710671</StandardDeviation>
+        </Statistics>
+        <Statistics Index="3">
+            <Minimum>-12.0293</Minimum>
+            <Maximum>-4.87323</Maximum>
+            <Mean>-5.48724</Mean>
+            <StandardDeviation>0.379683</StandardDeviation>
+        </Statistics>
+        <Statistics Index="4">
+            <Minimum>0.167371</Minimum>
+            <Maximum>1.15513</Maximum>
+            <Mean>0.525949</Mean>
+            <StandardDeviation>0.164694</StandardDeviation>
+        </Statistics>
+        <Statistics Index="5">
+            <Minimum>-0.321439</Minimum>
+            <Maximum>0.205397</Maximum>
+            <Mean>-0.0128606</Mean>
+            <StandardDeviation>0.104028</StandardDeviation>
+        </Statistics>
+        <Statistics Index="6">
+            <Minimum>-0.252258</Minimum>
+            <Maximum>0.176847</Maximum>
+            <Mean>-0.0058923</Mean>
+            <StandardDeviation>0.0815611</StandardDeviation>
+        </Statistics>
+        <Statistics Index="7">
+            <Minimum>-0.104726</Minimum>
+            <Maximum>0.135613</Maximum>
+            <Mean>0.0367055</Mean>
+            <StandardDeviation>0.0470191</StandardDeviation>
+        </Statistics>
+        <Statistics Index="8">
+            <Minimum>-0.108456</Minimum>
+            <Maximum>0.209627</Maximum>
+            <Mean>0.0216735</Mean>
+            <StandardDeviation>0.0450462</StandardDeviation>
+        </Statistics>
+        <Statistics Index="9">
+            <Minimum>-0.175758</Minimum>
+            <Maximum>0.196244</Maximum>
+            <Mean>-0.0108706</Mean>
+            <StandardDeviation>0.0580149</StandardDeviation>
+        </Statistics>
+        <Statistics Index="10">
+            <Minimum>-0.171216</Minimum>
+            <Maximum>0.141527</Maximum>
+            <Mean>0.00759928</Mean>
+            <StandardDeviation>0.0586989</StandardDeviation>
+        </Statistics>
+        <Statistics Index="11">
+            <Minimum>-0.132914</Minimum>
+            <Maximum>0.144587</Maximum>
+            <Mean>0.0103071</Mean>
+            <StandardDeviation>0.0451231</StandardDeviation>
+        </Statistics>
+        <Statistics Index="12">
+            <Minimum>-0.090576</Minimum>
+            <Maximum>0.168585</Maximum>
+            <Mean>0.0201294</Mean>
+            <StandardDeviation>0.0422545</StandardDeviation>
+        </Statistics>
+        <Statistics Index="13">
+            <Minimum>-0.070331</Minimum>
+            <Maximum>0.124871</Maximum>
+            <Mean>0.0099612</Mean>
+            <StandardDeviation>0.0386978</StandardDeviation>
+        </Statistics>
+        <Statistics Index="14">
+            <Minimum>-0.138218</Minimum>
+            <Maximum>0.108738</Maximum>
+            <Mean>-0.00535987</Mean>
+            <StandardDeviation>0.0323119</StandardDeviation>
+        </Statistics>
+        <Statistics Index="15">
+            <Minimum>-0.106904</Minimum>
+            <Maximum>0.075096</Maximum>
+            <Mean>-0.0125252</Mean>
+            <StandardDeviation>0.0314306</StandardDeviation>
+        </Statistics>
+        <Statistics Index="16">
+            <Minimum>4.91138</Minimum>
+            <Maximum>29.7838</Maximum>
+            <Mean>10.4853</Mean>
+            <StandardDeviation>2.22644</StandardDeviation>
+        </Statistics>
+        <Statistics Index="17">
+            <Minimum>0.416907</Minimum>
+            <Maximum>0.459451</Maximum>
+            <Mean>0.457521</Mean>
+            <StandardDeviation>0.00294176</StandardDeviation>
+        </Statistics>
+        <ScalingMethod>MinimumMaximum</ScalingMethod>
+    </ScalingLayer>
+    <MultilayerPerceptron>
+        <Architecture>17 30 3</Architecture>
+        <LayersActivationFunction>HyperbolicTangent Linear</LayersActivationFunction>
+        <Parameters>-0.0575018 -0.219835 1.64238 1.67195 1.32073 0.704365 -0.764547 1.77639 1.7196 -1.23362 0.889905 -0.490894 1.349 0.499583 0.331637 1.67957 0.153046 -1.3295 0.645964 -0.541654 1.77761 -0.112747 0.459478 2.4864 -0.854176 -1.23806 0.371908 0.594653 -0.373116 -0.234364 -0.709782 1.85343 -0.026829 1.52179 -0.606441 0.195195 0.00671105 -0.333205 -0.271378 -1.16679 -0.0336859 -0.265669 0.982916 -0.457453 -0.439066 -0.780659 -1.43404 -0.554229 -0.984342 0.596373 -0.41709 0.209478 -0.662502 0.869741 -0.715595 0.935065 0.749078 -2.31919 -0.199522 0.60278 -0.435754 -0.476946 1.02955 -0.214432 0.0608001 -0.407671 -0.773635 0.00443649 0.323133 -1.50879 0.124073 -2.1496 -0.325904 -0.47023 1.02959 0.515319 -0.323516 -0.167772 -0.368961 -0.150585 0.754045 0.580443 0.306567 1.93918 1.43732 -0.823018 1.12419 0.80923 1.51848 0.899322 -0.46215 2.26205 0.33697 1.23693 -0.399057 -1.48554 0.448806 0.52807 0.664284 0.678935 -2.3977 -0.849742 0.392778 1.37352 0.215211 -0.939951 -0.501325 1.85081 0.683226 2.35395 -0.432123 1.82748 -0.685397 1.64274 -0.128975 0.468395 -0.16788 -0.198875 -1.26984 -1.16307 0.725747 0.766806 0.25482 -0.785258 -0.108719 0.34368 0.401144 0.928949 -2.56992 0.901393 0.177988 -0.0583136 0.052858 0.160968 -0.994666 -0.98453 0.0641576 1.3046 -0.129411 0.240516 0.528713 -0.7499 -0.830828 1.37494 -0.425663 1.36228 0.721848 2.29629 -1.43753 -0.490712 -0.462379 -0.144267 -0.709046 0.219288 1.07198 0.576281 -0.604736 1.10381 0.236729 -0.0173385 0.250827 0.119542 -2.14034 -0.90151 1.26799 1.4282 0.245074 0.0625564 0.146548 -0.920304 0.136683 -0.720571 0.45352 -1.409 -0.542175 -0.597674 0.395379 -0.915544 1.66184 -0.283808 1.82489 1.99556 0.65049 1.2646 0.166814 -1.01797 1.13374 0.651038 -1.44212 -0.826025 2.84373 -0.313015 -1.23403 -1.6813 -0.609998 0.591169 0.374977 0.684951 -1.10182 -0.873347 2.28336 -1.09022 -0.425052 0.675523 1.16785 -1.41905 -0.250361 -1.06824 -0.418305 1.96667 -0.392609 -0.951919 0.607638 -1.77431 -0.1106 0.325445 0.396949 0.665294 0.789214 1.4308 -0.0103734 -1.40536 1.33054 0.408289 2.03334 0.490972 -0.8675 0.195959 1.76622 1.20485 0.118702 -0.0720357 0.596979 -1.07184 -0.845159 0.124588 0.483721 -1.39835 1.22081 1.18852 -0.965697 -0.514591 0.0901326 0.193087 0.0156664 1.43596 0.706523 -1.06068 0.675581 0.514419 0.424693 -0.925892 0.929335 0.246798 -1.23711 -0.654917 0.351423 2.15024 1.85332 2.37369 -1.24117 0.277232 0.108654 0.0209823 -0.0541921 0.246607 -0.824263 -0.528946 -0.535168 -1.44051 -1.07855 -0.460157 0.121977 -0.691657 0.560499 -1.08935 1.38138 -0.259319 -1.22843 -1.0727 0.854621 -0.138099 -0.676991 1.31451 0.58412 -0.876949 -0.379083 -1.39011 0.151372 0.881386 -0.0326928 0.56466 1.42069 0.124789 1.30714 1.40869 -0.349129 -0.109587 -2.68373 0.337882 1.42674 -0.286183 -1.66211 -0.51078 -1.65478 -0.244787 0.178002 0.363079 -0.0499141 -0.0216983 0.137255 -0.705886 -1.14769 -1.13089 -1.19741 -0.898138 -0.407286 -0.854369 0.857441 -1.75938 0.513665 -0.461362 -0.765935 0.352735 0.64497 -1.59112 -0.591591 -0.774621 -0.804235 1.20483 0.228387 0.495022 1.75796 1.45659 0.800454 -2.11032 0.192143 0.0428487 0.129775 -0.391234 0.683424 -0.678552 -1.04859 0.805574 -1.52158 0.323304 -1.2222 0.164442 -0.220448 -1.06971 -1.14387 0.255367 0.285225 -0.239216 0.487009 0.422648 -0.398791 -0.728115 0.348578 -0.478457 0.272177 -0.596138 -0.574242 1.41326 -1.05928 -1.51212 -1.33592 -1.46905 1.34328 -0.461367 0.6879 -0.198441 1.18193 -0.459564 1.46755 0.0824725 1.01788 0.475607 -0.891315 -0.540514 -0.25904 -2.51541 -0.992406 -0.949916 0.64177 0.0728544 -0.0440116 0.00787671 0.15017 -0.257014 1.08076 -0.9783 0.399616 0.497329 -0.566091 -0.827436 -1.21139 0.175575 0.78426 -1.40427 -0.953102 0.513041 -0.483882 0.78647 -0.22274 -1.06875 -1.24758 -0.432083 -0.187998 -0.0530955 1.84139 -0.0532268 -0.89351 -0.178555 -1.23432 -0.211488 -0.12361 -2.85559 2.30059 1.19304 1.4077 0.688439 1.38534 1.01898 -0.0131696 -0.969486 1.03843 0.77619 -0.582387 2.59601 0.537324 -0.713431 -1.86665 -2.251 0.498213 -0.222258 -0.503834 1.28362 -0.163602 -0.89413 0.123227 0.708638 0.231205 0.641747 1.01907 -0.180318 -0.550446 -0.444378 -0.486182 0.760653 -0.660952 0.729979 0.71138 -0.00463658 0.051049 0.186348 1.18375 -1.55471 -0.273371 -0.606628 0.578906 2.35708 -0.0709534 0.321678 -0.358316 -0.104517 0.225762 -1.04299 -0.059439 2.28084 -0.156195 0.0175433 -0.0611493 0.686648 1.93551 -0.138428 -0.0864454 1.35359 0.370635 -1.44952 -1.17637 -0.102859 -1.7714 -1.41234 0.432098 0.68175 0.363333 -0.543018 0.273757 0.19134 0.77207 0.389151 0.722243 -1.14875 0.0971942 0.416121 0.777612 -1.46245 0.267725 -0.0130281 -0.579166 1.10375 -1.04319 0.464119 -0.0127382 0.940472 -1.34734 -0.67829 -1.99519 -0.376078 -0.817758 0.732457 -0.324517 0.0915417 1.07895 -0.199743 1.14966 1.76583 -0.527342 2.06599 -1.22484 0.858645 -0.187644 -0.853442 -1.95409 0.177057 0.885372 0.167146 -0.799438 -0.340733 0.0374841 -0.637179 0.934776 -0.281768 1.16186 0.348722 -0.0642055 -0.512652 0.243142 -0.609766 1.35592 0.360756 0.270636 -0.430016 0.410747 0.085592 0.439412 -1.4384 -0.400768 -0.231323 -0.0194141 -0.243711 0.735563 -0.24467 0.15375 0.750475 -0.0879044 0.225208 -0.47547 -0.274695 0.407795 0.105164 0.31568 -0.275861 1.15084 -1.93815 -0.496 -0.264137 0.316183 0.372184 0.246985 -0.448552 0.0463585 -0.364313 0.267998 1.45232 0.187149 -0.276911 -0.406818 0.055521 0.34368 0.293779 1.04534 -0.631745 0.378955 -2.27054 0.300788 0.164168 -0.193942 0.808456 0.209223 -0.116464 -0.208821 -0.837418 0.215873 0.198094 0.890953 0.477173 -0.891686 0.273913 -0.659378 -0.0712635 -1.65261 -0.467145 0.0502607 -0.0436672 -1.73914 -0.311038 -0.0496131 -1.01003 -0.116182 0.232289 -0.411132 0.234034 -0.112627 -0.149374 1.59061 -0.749421 -0.0216768 0.0676833 -0.191454 -0.0924093 -0.302013 0.384852 -0.87716 0.235328 -0.540121 0.609492 -0.011171 1.14359 -0.373483 0.312767 0.0496192</Parameters>
+    </MultilayerPerceptron>
+    <ProbabilisticLayer>
+        <ProbabilisticNeuronsNumber>3</ProbabilisticNeuronsNumber>
+        <ProbabilisticMethod>Probability</ProbabilisticMethod>
+        <DecisionThreshold>0.5</DecisionThreshold>
+    </ProbabilisticLayer>
+    <Outputs>
+        <OutputsNumber>3</OutputsNumber>
+        <Item Index="1">
+            <Name>output_1</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="2">
+            <Name>output_2</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+        <Item Index="3">
+            <Name>output_3</Name>
+            <Units></Units>
+            <Description></Description>
+        </Item>
+    </Outputs>
+</NeuralNetwork>

@@ -1,0 +1,148 @@
+<DataSet>
+    <DataFile>
+        <FileType>dat</FileType>
+        <FirstCell></FirstCell>
+        <LastCell></LastCell>
+        <SheetNumber>1</SheetNumber>
+        <LagsNumber>0</LagsNumber>
+        <StepsAhead>0</StepsAhead>
+        <ColumnsName>0</ColumnsName>
+        <RowsLabel>251</RowsLabel>
+        <Separator>Comma</Separator>
+        <MissingValuesLabel>?</MissingValuesLabel>
+        <DataFileName>data/data.dat</DataFileName>
+    </DataFile>
+    <Variables>
+        <VariablesNumber>20</VariablesNumber>
+        <Item Index="1">
+            <Name>Mean_Acc300_Centroid_Power_powerFFT_WinHamming_ real</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="2">
+            <Name>Mean_Acc300_Rolloff_Power_powerFFT_WinHamming_ real</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="3">
+            <Name>Mean_Acc300_MFCC0_Power_powerFFT_WinHamming_ real</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="4">
+            <Name>Mean_Acc300_MFCC1_Power_powerFFT_WinHamming_ real</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="5">
+            <Name>Mean_Acc300_MFCC2_Power_powerFFT_WinHamming_ real</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="6">
+            <Name>Mean_Acc300_MFCC3_Power_powerFFT_WinHamming_ real</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="7">
+            <Name>Mean_Acc300_MFCC4_Power_powerFFT_WinHamming_ real</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="8">
+            <Name>Mean_Acc300_MFCC5_Power_powerFFT_WinHamming_ real</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="9">
+            <Name>Mean_Acc300_MFCC6_Power_powerFFT_WinHamming_ real</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="10">
+            <Name>Mean_Acc300_MFCC7_Power_powerFFT_WinHamming_ real</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="11">
+            <Name>Mean_Acc300_MFCC8_Power_powerFFT_WinHamming_ real</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="12">
+            <Name>Mean_Acc300_MFCC9_Power_powerFFT_WinHamming_ real</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="13">
+            <Name>Mean_Acc300_MFCC10_Power_powerFFT_WinHamming_ real</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="14">
+            <Name>Mean_Acc300_MFCC11_Power_powerFFT_WinHamming_ real</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="15">
+            <Name>Mean_Acc300_MFCC12_Power_powerFFT_WinHamming_ real</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="16">
+            <Name>Mean_Acc300_Kurtosis real</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="17">
+            <Name>Mean_Acc300_Skewness real</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Input</Use>
+        </Item>
+        <Item Index="18">
+            <Name>Center</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Target</Use>
+        </Item>
+        <Item Index="19">
+            <Name>Halfedge</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Target</Use>
+        </Item>
+        <Item Index="20">
+            <Name>Rimshot</Name>
+            <Units></Units>
+            <Description></Description>
+            <Use>Target</Use>
+        </Item>
+    </Variables>
+    <Instances>
+        <InstancesNumber>991</InstancesNumber>
+        <ItemsUses>1 0 2 0 0 2 1 1 1 0 1 0 0 1 0 0 0 0 1 1 0 1 0 2 1 0 0 0 0 1 0 0 2 1 2 0 0 0 0 0 1 2 1 0 2 2 0 0 0 0 0 1 0 1 0 2 0 0 0 0 0 0 0 0 1 2 0 0 0 0 2 2 0 0 0 0 0 2 0 0 2 2 2 0 0 0 1 0 1 2 2 0 1 0 2 2 0 0 2 0 2 0 0 0 0 2 0 0 0 0 0 0 2 1 0 2 0 1 0 0 1 0 0 2 0 0 1 0 0 0 0 0 0 0 0 0 1 1 2 0 0 0 2 2 1 0 2 0 1 2 0 1 1 0 0 0 2 1 2 2 0 0 0 0 2 2 1 0 0 0 0 0 0 0 0 0 2 0 2 2 0 0 1 1 0 2 1 0 0 1 0 1 2 0 2 0 2 0 0 0 1 0 0 2 2 0 1 2 0 0 0 1 0 0 1 1 1 0 2 0 0 1 0 0 0 0 1 0 0 2 1 2 0 0 0 1 0 1 0 2 0 0 1 0 0 0 1 1 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 2 2 2 0 0 0 1 0 0 0 0 0 1 2 0 1 2 0 0 0 0 0 0 0 0 2 1 2 0 0 2 0 1 0 0 1 1 2 0 0 0 0 0 0 1 0 1 1 1 1 0 1 0 0 0 1 0 2 0 0 0 0 0 0 0 0 0 0 0 1 0 0 2 0 2 1 1 0 0 0 1 0 1 0 0 0 1 0 1 0 1 0 1 0 2 2 0 0 0 2 2 0 0 0 0 1 0 0 0 2 0 0 1 0 0 0 0 0 0 2 2 0 1 1 0 0 1 0 0 0 0 0 0 0 0 2 0 0 0 2 0 1 0 0 0 0 1 2 1 2 0 1 2 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 2 0 2 0 0 0 0 0 2 2 1 0 2 0 0 0 2 0 2 2 0 2 1 0 0 0 0 0 0 1 0 0 0 0 1 2 1 1 0 2 0 0 0 2 0 0 2 0 0 0 0 1 2 0 0 0 1 1 0 1 1 0 0 0 1 0 0 0 0 1 0 0 0 0 2 1 0 1 0 2 0 0 0 2 1 0 2 0 0 0 0 0 1 1 0 0 0 1 0 0 0 2 0 0 0 0 0 2 0 1 0 0 0 0 2 0 0 0 0 0 0 2 0 2 1 2 2 2 2 0 2 0 1 0 0 0 1 2 2 0 2 0 2 0 2 2 0 0 1 0 2 2 0 2 0 0 1 0 0 1 1 2 0 1 1 1 0 2 0 1 2 0 0 0 2 0 2 0 0 1 2 0 2 0 0 0 2 2 0 0 2 0 1 2 1 0 0 0 2 1 2 0 0 0 0 1 1 0 0 1 0 0 0 1 0 0 0 1 2 0 1 0 0 0 0 1 0 0 2 1 1 0 1 1 1 0 0 2 2 2 2 0 0 1 0 0 0 0 0 2 2 0 0 1 0 2 1 0 0 2 0 0 0 0 2 0 0 2 1 0 0 2 1 0 2 0 1 2 2 0 0 1 1 0 1 0 0 0 0 0 1 0 0 0 0 2 0 0 0 2 1 0 1 0 0 0 0 0 0 0 0 1 0 2 2 1 0 0 2 2 1 0 0 0 0 1 0 0 0 2 0 2 2 0 0 0 2 2 0 2 0 0 0 1 0 0 0 2 0 0 0 1 0 1 2 1 0 0 0 0 0 2 0 2 0 0 2 0 2 1 0 2 1 0 0 0 0 1 0 2 2 0 2 1 1 0 0 2 2 0 0 0 0 0 1 2 0 2 1 0 2 1 0 0 1 0 0 0 1 1 0 1 0 1 0 1 0 0 0 1 0 2 0 1 2 1 0 0 0 2 0 2 1 1 2 1 0 1 0 0 0 0 1 0 2 1 0 2 0 2 1 0 1 0 1 1 2 2 0 0 0 0 0 0 0 0 0 2 1 2 0 1 0 0 2 0 0 1 0 0 2 2 2 1 2 0 0 0 1 0 0 0 2 2 0 1 2 0 1 0 1 0 0 2 1 2 0 1 0 0 2 0 0 0 0 0 0 2 0 1 2 2 0 0 0 0 1 2 0 2 2 0 0 0 0 2 0 1 0 0 0</ItemsUses>
+    </Instances>
+    <MissingValues>
+        <InstancesNumber>991</InstancesNumber>
+        <VariablesNumber>20</VariablesNumber>
+        <ScrubbingMethod>Unuse</ScrubbingMethod>
+        <MissingValuesNumber>0</MissingValuesNumber>
+    </MissingValues>
+</DataSet>
