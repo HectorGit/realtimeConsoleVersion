@@ -4,7 +4,7 @@
 #include "MarsyasRealtime.h"
 
 MarsyasRealtime::MarsyasRealtime() {
-	
+
 	//myClassifier = new OpenNNClassifier();
 
 	sropt = 44100.0;
@@ -64,7 +64,7 @@ MarsyasRealtime::MarsyasRealtime() {
 
 	//out2.create(total->getctrl("mrs_natural/onObservations")->to<mrs_natural>(),
 	//total->getctrl("mrs_natural/onSamples")->to<mrs_natural>());
-	
+
 }
 
 MarsyasRealtime::~MarsyasRealtime() {
@@ -79,11 +79,8 @@ mrs_realvec MarsyasRealtime::startExtraction() {
 	net->updControl("AudioSource/otherSrc/mrs_natural/bufferSize", bufferSize); //origin 512
 	net->updControl("AudioSource/otherSrc/mrs_real/israte", sropt);
 	net->updControl("AudioSource/otherSrc/mrs_bool/initAudio", true);
-
 	mrs_natural iterations = (mrs_natural)((srate*length) / inSamples);
-
 	cout << "Iterations = " << iterations << endl;
-
 	for (mrs_natural t = 0; t < iterations; t++)
 	{
 	*/

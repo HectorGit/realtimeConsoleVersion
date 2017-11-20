@@ -1,12 +1,6 @@
 #pragma once
 
 #include "stdafx.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-#include <vector>
-#include <iostream>
-#include <math.h> //or cmath?
 
 #include <fcntl.h>
 #include <stdio.h>
@@ -30,7 +24,6 @@
 #include <marsyas/marsystems/Spectrum2ACMChroma.h>
 
 #include <time.h>
-#include <marsyas/types.h>
 
 #ifdef MARSYAS_MIDIIO
 #include <RtMidi.h>
@@ -48,35 +41,16 @@
 using namespace std;
 using namespace Marsyas;
 
-//#include "OpenNNClassifier.h"
-//#include "OpenNNClassifier.h" 
-//might want this here. 
-//DONT KNOW IF WE WANT THIS HERE
-
-class MarsyasRealtime {
+class MarsyasPlayerNet {
 
 public:
-	MarsyasRealtime();
-	~MarsyasRealtime();
-	mrs_realvec startExtraction();
-	//OpenNNClassifier* myClassifier;
-	int bufferSize;
-	mrs_natural copt;
-	mrs_real sropt;
-	mrs_real length;
-	mrs_real srate;
-	mrs_natural nChannels;
-	mrs_natural inSamples;
-	MarSystemManager mng;
-	MarSystem* peakerNet;
-	MarSystem* net;
-	MarSystem* total;
-	string centerCollection;
-	string halfEdgeCollection;
-	string rimshotCollection;
-	realvec in1;
-	realvec out1;
-	realvec out2;
+	MarsyasPlayerNet(string soundFileNameParam);
+	~MarsyasPlayerNet();
+	void playSound(/*string soundFileNameParam*/); //calls tick
+	void setSoundFileName(string newSoundFileName); //changes the filneame control
 private:
-
+	string soundFileName;
+	MarSystemManager mng; //is this typed correctly?
+						  //all the other marsystems connected, or maybe just the dnet.
+	MarSystem* dnet;
 };
